@@ -4,3 +4,9 @@
 
 1. [`./frontend/`](./frontend/README.md)
 2. [`./backend/`](./backend/README.md)
+
+This is a Full-Stack Trivia Project with Udacity
+
+- Python
+- Flask
+- React

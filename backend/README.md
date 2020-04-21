@@ -8,13 +8,13 @@
 
 Follow instructions to install the latest version of python for your platform in the  [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
-#### [](https://github.com/manishbisht/Udacity/tree/master/Full%20Stack%20Web%20Developer%20Nanodegree%20v2/P2%20-%20Trivia%20API/backend#virtual-enviornment)Virtual Enviornment
+#### [](https://github.com/manishbisht/Udacity/tree/master/Full%20Stack%20Web%20Developer%20Nanodegree%20v2/P2%20-%20Trivia%20API/backend#virtual-enviornment)Virtual Environment
 
-We recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organaized. Instructions for setting up a virual enviornment for your platform can be found in the  [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+We recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organized. Instructions for setting up a virtual environment for your platform can be found in the  [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 #### [](https://github.com/manishbisht/Udacity/tree/master/Full%20Stack%20Web%20Developer%20Nanodegree%20v2/P2%20-%20Trivia%20API/backend#pip-dependencies)PIP Dependencies
 
-Once you have your virtual environment setup and running, install dependencies by naviging to the  `/backend`  directory and running:
+Once you have your virtual environment setup and running, install dependencies by navigating to the  `/backend`  directory and running:
 
 pip install -r requirements.txt
 
@@ -26,7 +26,7 @@ This will install all of the required packages we selected within the  `requirem
     
 -   [SQLAlchemy](https://www.sqlalchemy.org/)  is the Python SQL toolkit and ORM we'll use handle the database. You'll primarily work in app.py and models.py.
     
--   [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#)  is the extension we'll use to handle cross origin resource sharing requests from our frontend server.
+-   [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#)  is the extension we'll use to handle cross-origin resource sharing requests from our frontend server.
 - ## Database Setup
 
 With Postgres running, restore a database using the trivia.psql file provided. From the backend folder in terminal run:

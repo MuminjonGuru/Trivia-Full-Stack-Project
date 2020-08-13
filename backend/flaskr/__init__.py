@@ -6,7 +6,9 @@ from flask_cors import CORS
 import random
 from models import setup_db, Question, Category
 
-QUESTIONS_PER_PAGE = 10 # pagination settings
+# pagination settings
+QUESTIONS_PER_PAGE = 10
+
 
 def paginate_questions(request, selection):
     page = request.args.get('page', 1, type=int)
@@ -132,6 +134,7 @@ def create_app(test_config=None):
     def get_question_for_quiz():
         try:
             body = request.get_json()
+            
             if not ('quiz_category' in body and 'previous_questions' in body):
                 abort(422)
 
@@ -163,7 +166,7 @@ def create_app(test_config=None):
         return jsonify({
             "success": False,
             "error": 404,
-            "message": "Resource not found"
+            "message": "Resource Not Found"
         }), 404
 
     @app.errorhandler(422)
